@@ -4,7 +4,5 @@ public class Main {
 
         vassal.max(4);
 
-
-        //commit
     }
 }
