@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        SalesManager vassal = new SalesManager(int[] sales1);
+        int[] sales ={1, 15, 7, 22};
+        SalesManager vassal = new SalesManager(sales);
 
-        vassal.max(4);
+        Sistem.out.println("Вассал: " + vassal.max());
+
+        Sistem.out.println("Обрезанная средняя: " + trimmedAvd());
 
     }
 }
