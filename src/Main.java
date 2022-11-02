@@ -5,5 +5,7 @@ public class Main {
 
         Sistem.out.println("Вассал: " + vassal.max());
 
+        Sistem.out.println("Обрезанная средняя: " + trimmedAvd());
+
     }
 }
